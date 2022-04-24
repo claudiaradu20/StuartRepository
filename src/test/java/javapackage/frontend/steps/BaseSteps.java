@@ -5,7 +5,6 @@ import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import lombok.extern.slf4j.Slf4j;
-
 import java.util.List;
 
 @Slf4j
@@ -21,12 +20,6 @@ public class BaseSteps extends PageObject {
 
         log.info("Evaluated element: " + element.toString());
         Assert.assertTrue($(element).waitUntilPresent().isPresent());
-    }
-
-    public void assertElementIsNotPresentInPage(By element) {
-
-        log.info("Evaluated element: " + element.toString());
-        Assert.assertFalse($(element).waitUntilPresent().isPresent());
     }
 
     public void clickOnElementIfPresent(By element) {
@@ -99,8 +92,4 @@ public class BaseSteps extends PageObject {
             }
         }
     }
-
-
-
-
 }

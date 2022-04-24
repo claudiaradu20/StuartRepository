@@ -1,10 +1,6 @@
 package javapackage.frontend.locators;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class NewDeliveryPage {
 
@@ -27,6 +23,7 @@ public class NewDeliveryPage {
     public static By CONFIRM_NEAR_ADDRESS_PICKUP = By.id("item-15-rue-pereire-92500-rueil-malmaison");
     public static By CONFIRM_FAR_ADDRESS_PICKUP = By.id("item-82-rue-de-rivoli-75004-paris");
     public static By CONFIRM_INCORRECT_ADDRESS_PICKUP = By.id("item-rue-de-rivoli-paris");
+
     public static By FIRST_NAME_PICKUP = By.id("pickUpCard-0-fields-field-firstname");
     public static By LAST_NAME_PICKUP = By.id("pickUpCard-0-fields-field-lastname");
     public static By COMPANY_PICKUP = By.id("pickUpCard-0-fields-field-company");
@@ -39,6 +36,7 @@ public class NewDeliveryPage {
     public static By CONFIRM_NEAR_ADDRESS_DROPOFF = By.id("item-2-rue-des-martinets-92500-rueil-malmaison");
     public static By CONFIRM_FAR_ADDRESS_DROPOFF = By.id("item-5-rue-des-picots-28260-rouvres");
     public static By CONFIRM_INCORRECT_ADDRESS_DROPOFF = By.id("item-rue-des-martinets-92500-rueil-malmaison");
+
     public static By FIRST_NAME_DROPOFF = By.id("dropOffCard-0-fields-field-firstname");
     public static By LAST_NAME_DROPOFF = By.id("dropOffCard-0-fields-field-lastname");
     public static By COMPANY_DROPOFF = By.id("dropOffCard-0-fields-field-company");
@@ -52,6 +50,7 @@ public class NewDeliveryPage {
     public static String NEAR_ADDRESS_PICKUP_VALUE = "15 Rue Pereire, 92500 Rueil-Malmaison, France";
     public static String FAR_ADDRESS_PICKUP_VALUE = "82 Rue de Rivoli, 75004 Paris, France";
     public static String INCORRECT_ADDRESS_PICKUP_VALUE = "Rue de Rivoli";
+
     public static String FIRST_NAME_PICKUP_VALUE = "Pick";
     public static String LAST_NAME_PICKUP_VALUE = "Up";
     public static String COMPANY_PICKUP_VALUE = "Company Pickup";
@@ -64,6 +63,7 @@ public class NewDeliveryPage {
     public static String NEAR_ADDRESS_DROPOFF_VALUE = "2 Rue des Martinets, 92500 Rueil-Malmaison, France";
     public static String FAR_ADDRESS_DROPOFF_VALUE = "5 Rue des Picots, 28260 Rouvres, France";
     public static String INCORRECT_ADDRESS_DROPOFF_VALUE = "Rue des Martinets";
+
     public static String FIRST_NAME_DROPOFF_VALUE = "Drop";
     public static String LAST_NAME_DROPOFF_VALUE = "Off";
     public static String COMPANY_DROPOFF_VALUE = "Company Dropoff";

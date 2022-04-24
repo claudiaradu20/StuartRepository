@@ -119,10 +119,4 @@ public class NewDeliveryStepDefinitions {
 
         baseSteps.waitAndCheckIfElementPresent(ScheduledDelivery.SCHEDULED_JOBS_PAGE_ID);
     }
-
-
-
-
-
-
 }

@@ -5,6 +5,7 @@
 
 #  Bug Id:Id123
 #  Environment: Sandbox
+#  Affected Version: 22.06
 #  Severity: Critical
 #  Description:
 #    When calling the endpoint GET /jobs/{jobId} with the jobId of a job with status 'searching', we get null for status.

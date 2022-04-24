@@ -18,8 +18,8 @@ public class NewDeliverySteps {
    public void authenticateInStuartFrontend(String email, String password){
 
       baseSteps.navigatetoURL(URLManager.AUTHENTICATEPAGEURL, AuthenticatePage.EMAIL);
-      baseSteps.fillInField(AuthenticatePage.EMAIL, AuthenticatePage.authenticateEmail);
-      baseSteps.fillInField(AuthenticatePage.PASSWORD, AuthenticatePage.authenticatePassword);
+      baseSteps.fillInField(AuthenticatePage.EMAIL, email);
+      baseSteps.fillInField(AuthenticatePage.PASSWORD, password);
       baseSteps.clickWithWait(AuthenticatePage.LOG_IN_BUTTON, NewDeliveryPage.REQUEST_DELIVERY_TAB);
    }
 
@@ -174,11 +174,4 @@ public class NewDeliverySteps {
          baseSteps.clickOnElementIfPresent(NewDeliveryPage.LATER_TIME_OF_DELIVERY);
       } else throw new IllegalArgumentException(option);
    }
-
-
-
-
-
-
-
 }
